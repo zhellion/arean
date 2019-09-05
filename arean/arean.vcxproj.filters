@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="mesh">
+      <UniqueIdentifier>{7805a24e-f854-4baf-af6b-7753a9991c45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="arean core">
+      <UniqueIdentifier>{897436c2-4659-44a0-a4b7-ae438534b577}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{fb5c9c72-7f62-4d46-8770-8db4be003a0e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="arean.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DescriptorsAndSemplers.cpp">
+      <Filter>arean core</Filter>
+    </ClCompile>
+    <ClCompile Include="Device.cpp">
+      <Filter>arean core</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawCommandCenter.cpp">
+      <Filter>arean core</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>arean core</Filter>
+    </ClCompile>
+    <ClCompile Include="mainRenderer.cpp">
+      <Filter>arean core</Filter>
+    </ClCompile>
+    <ClCompile Include="Pipelines.cpp">
+      <Filter>arean core</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderPassage.cpp">
+      <Filter>arean core</Filter>
+    </ClCompile>
+    <ClCompile Include="SwapChain.cpp">
+      <Filter>arean core</Filter>
+    </ClCompile>
+    <ClCompile Include="UniformBuffer.cpp">
+      <Filter>arean core</Filter>
+    </ClCompile>
+    <ClCompile Include="validationLayers.cpp">
+      <Filter>arean core</Filter>
+    </ClCompile>
+    <ClCompile Include="vulkanInstance.cpp">
+      <Filter>arean core</Filter>
+    </ClCompile>
+    <ClCompile Include="VulkanSurface.cpp">
+      <Filter>arean core</Filter>
+    </ClCompile>
+    <ClCompile Include="tools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="arean.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="arean.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="arean.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="loadOBJFile.h">
+      <Filter>mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="mainRenderer.h">
+      <Filter>arean core</Filter>
+    </ClInclude>
+    <ClInclude Include="VKStr.h">
+      <Filter>arean core</Filter>
+    </ClInclude>
+    <ClInclude Include="tools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\x64\Shaders\base.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\x64\Shaders\base.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\x64\Shaders\baseNoLight.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\x64\Shaders\baseNoLight.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\x64\Shaders\baseTestLight.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\x64\Shaders\baseTestLight.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\x64\Shaders\sb.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\x64\Shaders\sb.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\x64\Shaders\ShadowMap.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\x64\Shaders\ShadowMap.frag">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
